@@ -96,7 +96,7 @@ const firebaseConfig = {
   
       // DOne
       alert('User Logged In!!')
-      
+      window.location.href = "landing.html";
   
     })
     .catch(function(error) {
